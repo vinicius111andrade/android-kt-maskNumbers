@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Mask Numbers</string>
+
+    <string name="choose_mask_type">Choose mask type</string>
+
+    <string-array name="masks">
+
+        <item>CPF</item>
+        <item>CNPJ</item>
+        <item>Telefone</item>
+
+
+    </string-array>
 </resources>
