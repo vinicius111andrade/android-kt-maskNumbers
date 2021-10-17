@@ -1,14 +1,24 @@
 <resources>
     <string name="app_name">Mask Numbers</string>
 
-    <string name="choose_mask_type">Choose mask type</string>
+    <string name="choose_mask_type">Escolha o tipo de input</string>
 
     <string-array name="masks">
 
         <item>CPF</item>
         <item>CNPJ</item>
+        <item>Cartão de Crédito</item>
         <item>Telefone</item>
-
+        <item>Celular</item>
 
     </string-array>
+
+    <!-- Input hints -->
+    <string name="hint_cpf">Insira teu CPF</string>
+    <string name="hint_cnpj">Insira teu CNPJ</string>
+    <string name="hint_credit_card">Insira teu número de cartão de crédito</string>
+    <string name="hint_phone">Insira teu telefone</string>
+    <string name="hint_cellphone">Insira teu celular</string>
+
+
 </resources>

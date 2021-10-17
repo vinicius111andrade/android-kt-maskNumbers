@@ -15,7 +15,8 @@ class NumberTextWatcher(private var mask: String, private var is24h: Boolean = f
         const val MASK_CPF = "###.###.###-##"
         const val MASK_CNPJ = "##.###.###/####-##"
         const val MASK_CREDIT_CARD = "#### #### #### ####"
-        const val MASK_PHONE_NUMBER = "(##) #####-####"
+        const val MASK_PHONE = "(##) ####-####"
+        const val MASK_CELLPHONE = "(##) # ####-####"
     }
 
     private var isCursorRunning = false
